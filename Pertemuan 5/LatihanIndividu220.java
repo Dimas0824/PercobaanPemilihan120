@@ -17,7 +17,7 @@ public class LatihanIndividu220 {
         String inputPassword = sc.nextLine();
 
         // cek login
-        if (inputUsername.equals(username) && inputPassword.equals(password)) {
+        if (inputUsername.equalsIgnoreCase(username) && inputPassword.equals(password)) {
             System.out.println("Login Berhasil");
             System.out.println("Selamat Datang " + inputUsername);
         } else {

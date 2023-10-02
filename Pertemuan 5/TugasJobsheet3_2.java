@@ -16,7 +16,7 @@ public class TugasJobsheet3_2 {
 
         while (true) {
 
-            //  Fitur Login if-else
+            // * Fitur Login if-else
             while (token != true) {
 
                 System.out.println();
@@ -43,7 +43,7 @@ public class TugasJobsheet3_2 {
                 }
             }
 
-            //  Fitur Tambah Stok
+            // * Fitur Tambah Stok
             System.out.println("Cafe The Orange Stok!");
             System.out.println("Pilih 1 untuk tambah stok Ayam Bakar (" + stokAyamBakar + ")");
             System.out.println("Pilih 2 untuk tambah stok Ayam Goreng (" + stokAyamGoreng + ")");
